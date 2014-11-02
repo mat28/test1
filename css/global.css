@@ -1,0 +1,286 @@
+
+
+/***************Ã©lements principaux du corps de page*****************/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1056px;
+}
+
+a {
+    color: #191919;
+}
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.bg-blue {
+    background-color: #28a8db;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #28a8db;
+    color: #ffffff;
+}
+
+h1 {
+    font-weight: 100;
+}
+
+
+
+
+
+
+
+
+
+/***************HEADER*****************/
+
+/* Insérer le code ici
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************Slider*****************/
+
+#slider-top-hp {
+    margin: 0 -15px;
+    /* z-index: -1; */
+    height: 500px;
+}
+
+.carousel-inner {
+    height: 100%;
+    min-width: 100%;
+}
+
+.carousel-inner .item {
+    height: 500px;
+    min-width: 100%;
+}
+
+.carousel-inner .item img {
+    min-width: 100%;
+    min-height: 500px;
+}
+
+.carousel-inner .item .carousel-caption {
+    top: 150px;
+    left: 105px;
+    width: 400px;
+    text-align: left;
+}
+
+#slider-top-hp .carousel-indicators {
+    bottom: 60px;
+}
+
+#slider-top-hp .carousel-indicators li {
+    background-color: rgba(255, 255, 255, .2);
+    width: 12px;
+    height: 12px;
+}
+
+#slider-top-hp .carousel-indicators li.active {
+    background-color: rgba(255, 255, 255, 1);
+    margin: 1px;
+}
+
+.carousel-caption {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********Section dÃ©couvrez nos contenus*********/
+
+#content-discover {
+    background-color: #eeeeee;
+    border-radius: 10px;
+    padding: 20px 20px 40px;
+    margin-top: -60px;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+#content-discover h2 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+#content-discover h3 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+#content-discover .column {
+    border-right: solid lightgrey 1px;
+}
+
+.img-column {
+    width: 100%;
+}
+
+#content-discover p {
+    margin: 30px 0;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+#content-discover .more {
+    font-weight: bold;
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********Section Tortor cras*********/
+
+#tortor {
+    padding: 20px 20px 40px;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+#tortor h2 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+#tortor h3 {
+    text-align: center;
+}
+
+#tortor p {
+    text-align: center;
+}
+
+#tortor button {
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+    display: block;
+    background-color: #28a8db;
+}
+
+#tortor img {
+    margin: auto;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************FOOTER*****************/
+
+footer {
+    background-color: #414042;
+    color: #8d8d8d;
+    padding: 20px 40px;
+    position: relative;
+}
+
+footer .sponsor_pict {
+    width: 50px;
+    height: 40px;
+    background-color: rgba(255,255,255,.2);
+    border: solid #8d8d8d 2px;
+    border-radius: 3px;
+}
+
+#footer_sponsors {
+    font-size: 11px;
+}
+
+#footer_sponsors p {
+    margin-bottom: 0;
+}
+
+footer .buttons {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+footer .buttons button {
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+    width: 120px;
+    height: 95px;
+}
+footer .buttons button:hover {
+    color: rgba(255, 255, 255, .6);;
+}
